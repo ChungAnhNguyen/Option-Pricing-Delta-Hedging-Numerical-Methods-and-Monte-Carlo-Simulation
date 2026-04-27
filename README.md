@@ -139,7 +139,7 @@ To prevent negative values under the square root, a **truncation scheme** $(\hat
 
 Implementation of the Fang-Oosterlee COS formula exploiting the **analytical characteristic function** of the Heston log-price:
 
-$$C_0 \approx e^{-rT} K \operatorname{Re}\!\left[\sum_{k=0}^{N-1} \varphi\!\left(\frac{k\pi}{b-a}, T; \nu_0\right) U_k \exp\!\left(ik\pi\frac{\log(S_0/K)-a}{b-a}\right)\right]$$
+$$C_0 \approx e^{-rT} K \, \mathrm{Re}\!\left[\sum_{k=0}^{N-1} \varphi\!\left(\frac{k\pi}{b-a}, T; \nu_0\right) U_k \exp\!\left(ik\pi\frac{\log(S_0/K)-a}{b-a}\right)\right]$$
 
 where $\varphi$ is the Heston characteristic function computed in closed form. This yields a near-exact reference price in $\mathcal{O}(N)$ operations, used to benchmark the Monte Carlo estimator.
 
