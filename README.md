@@ -16,11 +16,11 @@ The primary objective is to price vanilla call/put options through multiple inde
 
 ```
 .
-├── Recherche1_correction.ipynb   # Explicit finite difference scheme (Black-Scholes PDE)
-├── Recherche2_correction.ipynb   # Implicit finite difference scheme
-├── Recherche3_correction.ipynb   # Crank-Nicolson scheme
-├── Recherche4_correction.ipynb   # Monte Carlo — Euler-Maruyama + variance reduction
-└── Recherche5_correction.ipynb   # Heston model — Monte Carlo + COS method + delta hedging
+├── recherche1.ipynb   # Explicit finite difference scheme (Black-Scholes PDE)
+├── recherche2.ipynb   # Implicit finite difference scheme
+├── recherche3.ipynb   # Crank-Nicolson scheme
+├── recherche4.ipynb   # Monte Carlo — Euler-Maruyama + variance reduction
+└── recherche5.ipynb   # Heston model — Monte Carlo + COS method + delta hedging
 ```
 
 ---
